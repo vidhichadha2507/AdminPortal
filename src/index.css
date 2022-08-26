@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  background-color: #FEFBE7;
+}
+
+::-webkit-scrollbar {
+  background-color: #FEFBE7;
+  width: 0.4vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #F94892;
+}
+
+.show {
+  opacity: 1 !important;
+  visibility: visible !important;
+  right: 0 !important;
+}
